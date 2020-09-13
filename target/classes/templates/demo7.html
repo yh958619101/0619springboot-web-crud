@@ -1,0 +1,18 @@
+<!DOCTYPE html >
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+你是<span th:text="${name}" th:class="${name}" class="zs">名字</span>
+你好<span th:text="${'张三'}">名字</span><br/>
+<span th:text="sjs+jjjj">名字</span><br/>
+<span th:text="110">名字</span><br/>
+<span th:text="null">名字</span><br/>
+<span th:text="10+20">名字</span><br/>
+<span th:text="10/20">名字</span><br/>
+<span th:text="1>2 and 1>3">名字</span><br/>
+<span th:text="1>2?1:2">名字</span><br/>
+</body>
+</html>

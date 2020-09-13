@@ -1,0 +1,11 @@
+<!DOCTYPE html >
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<a href="https://www.baidu.com/" th:href="@{/order(id=${o.id})}">百度一下</a>
+<a href="https://www.baidu.com/" th:href="@{/{id}(id=${o.id})}">wowoowo</a>
+</body>
+</html>
